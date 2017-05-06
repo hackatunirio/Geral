@@ -1,9 +1,9 @@
-Henrique Andrade:
+
 # Geral
 Repositório utilizado pela organização para compartilhar informações com os participantes.
 
 
-##API UNIRIO
+## API UNIRIO
 
 Durante o evento participantes podem utilizar a interface da API UNIRIO para acessar uma réplica do banco de dados da UNIRIO utilizando:
 
@@ -28,3 +28,11 @@ Quem desenvolver em Python poderá utilizar o cliente disponível em http://pypi
 
 
 Exemplo de query que retorna dados de alunos: http://sistemas.unirio.br/api_teste/ALUNOS?API_KEY=744b3341f5f629a9560992f42b086494d4cb0b7a1b56a77c08240b8be97c7cb7ff3342c7034f5172761239b2943253e3&LMIN=100
+
+## LDAP 
+
+A UNIRIO possui um serviço de diretório de usuários DAP que pode ser acessado com as seguintes credenciais:
+
+mode = uid  #cpf do usuário
+base_dn = ou=people,dc=unirio,dc=br
+server = ldap.unirio.br
