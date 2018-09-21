@@ -8,30 +8,32 @@ Repositório utilizado pela organização para compartilhar informações com os
 Durante o evento participantes podem utilizar a interface da API UNIRIO para acessar uma réplica do banco de dados da UNIRIO utilizando:
 
 [URL base]
-http://sistemas.unirio.br/api_teste
+http://sistemas.unirio.br/api
 
 [SERVER api client]
-PRODUCTION_DEVELOPMENT
+PRODUCTION
 
 [KEY]
-744b3341f5f629a9560992f42b086494d4cb0b7a1b56a77c08240b8be97c7cb7ff3342c7034f5172761239b2943253e3
+94ebdcee824a8fc9876c4c0b22580540a8d2330da2ec089d2e396afce2ee20332383a2df43936763358021ef9d163a21
 
 [Views interessantes]
-V_SERVIDORES_DADOS
-V_EMW_DISCIPLINAS
-V_EMW_CURSOS
-V_EMW_DOCENTES
 V_ALUNOS_ATIVOS
+V_EMW_DOCENTES
+V_EMW_CURSOS
+V_EMW_DISCIPLINAS
+V_PROJETOS_EXTENSAO
+V_PROJETOS_PESQUISA
+V_EMW_DOCENTES
 
 
-Quem desenvolver em Python poderá utilizar o cliente disponível em http://pypi.python.org/pypi/unirio-api/1.1.0 .
+Quem desenvolver em Python poderá utilizar o cliente disponível em http://pypi.python.org/pypi/unirio-api/1.1.1 .
 
 
-Exemplo de query que retorna dados de alunos: http://sistemas.unirio.br/api_teste/ALUNOS?API_KEY=744b3341f5f629a9560992f42b086494d4cb0b7a1b56a77c08240b8be97c7cb7ff3342c7034f5172761239b2943253e3&LMIN=100
+Exemplo de query: http://sistemas.unirio.br/api/V_EMW_DOCENTES?API_KEY=94ebdcee824a8fc9876c4c0b22580540a8d2330da2ec089d2e396afce2ee20332383a2df43936763358021ef9d163a21&LMIN=100
 
 ## LDAP 
 
-A UNIRIO possui um serviço de diretório de usuários DAP que pode ser acessado com as seguintes credenciais:
+A UNIRIO possui um serviço de diretório de usuários LDAP que pode ser acessado com as seguintes credenciais:
 
 mode = uid  #cpf do usuário
 base_dn = ou=people,dc=unirio,dc=br
