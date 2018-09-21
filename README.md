@@ -18,11 +18,17 @@ PRODUCTION
 
 [Views interessantes]
 V_ALUNOS_ATIVOS
+
 V_EMW_DOCENTES
+
 V_EMW_CURSOS
+
 V_EMW_DISCIPLINAS
+
 V_PROJETOS_EXTENSAO
+
 V_PROJETOS_PESQUISA
+
 V_EMW_DOCENTES
 
 
@@ -36,5 +42,7 @@ Exemplo de query: http://sistemas.unirio.br/api/V_EMW_DOCENTES?API_KEY=94ebdcee8
 A UNIRIO possui um serviço de diretório de usuários LDAP que pode ser acessado com as seguintes credenciais:
 
 mode = uid  #cpf do usuário
+
 base_dn = ou=people,dc=unirio,dc=br
+
 server = ldap.unirio.br
