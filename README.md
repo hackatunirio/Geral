@@ -24,7 +24,6 @@ PRODUCTION
 * V_EMW_DISCIPLINAS
 * V_PROJETOS_EXTENSAO
 * V_PROJETOS_PESQUISA
-* V_EMW_DOCENTES
 
 
 Quem desenvolver em Python poderá utilizar o cliente disponível em http://pypi.python.org/pypi/unirio-api/1.1.1 .
